@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    overflow-x: hidden;
+}
+.home {
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 100px;
+    width: 400px;
+    margin-left: 600px;
+    height: 550px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+.image {
+   width: 100px;
+   margin-top: 20px;
+   border-radius: 100%;
+}
+
+.location {
+   color: hsl(75, 94%, 57%)
+}
+.about {
+   font-size: 14px;
+   font-weight: bold;
+}
+.link {
+   list-style: none;
+}
+li + li {
+   margin-top: 10px;
+}
+.link-github {
+   background-color: hsl(0, 0%, 20%);
+   width: 330px;
+   height: 30px;
+   border-radius: 15px;
+   padding-top: 10px;
+   font-weight: bold;
+}
+.link-frontend {
+    background-color: hsl(0, 0%, 20%);
+    width: 330px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.link-LinkedIn {
+    background-color: hsl(0, 0%, 20%);
+    width: 330px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.link-Twitter {
+    background-color: hsl(0, 0%, 20%);
+    width: 330px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.link-Instagram {
+    background-color: hsl(0, 0%, 20%);
+    width: 330px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.attribution {
+    margin-top: 50px;
+    font-weight: 500;
+}
+@media  screen and (max-width: 768px) {
+    .home {
+      margin-left: 0px;
+    }
+  }
